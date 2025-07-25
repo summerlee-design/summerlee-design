@@ -51,6 +51,6 @@ footer {
 }
 
 #footer-ul {
-  display: inline-block;
+  display: inline;
   width: 100%;
 }
