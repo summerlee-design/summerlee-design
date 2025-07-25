@@ -41,7 +41,6 @@ nav ul {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  display: inline;
 }
 
 footer {
