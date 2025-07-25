@@ -41,6 +41,7 @@ nav ul {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  display: inline;
 }
 
 footer {
@@ -48,9 +49,4 @@ footer {
   padding-top: 2rem;
   border-top: 1px solid #ccc;
   text-align: center;
-}
-
-#footer-ul {
-  display: inline;
-  width: 100%;
 }
