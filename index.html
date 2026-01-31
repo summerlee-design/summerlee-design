@@ -1,55 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Personal site of Summer Lee, last updated: Jul 24 2025." />
-    <title>Summer Lee</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Summer Lee — Now</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .lang-toggle { cursor: pointer; color: #d63384; text-decoration: underline; background: none; border: none; padding: 0; font: inherit; }
+    .lang { display: none; }
+    .lang[aria-hidden="false"] { display: block; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      <span class="lang" lang="en" aria-hidden="false">Hello / Bonjour — I’m Summer Lee 🇨🇦</span>
+      <span class="lang" lang="fr" aria-hidden="true">Bonjour / Hello — Je suis Summer Lee 🇨🇦</span>
+    </h1>
 
-  <body>
-    <header>
-      <h1>Hello/Bonjour, I’m <span class="highlight">Summer Lee</span> 🇨🇦</h1>
-      <p class="subtitle">LATEST STATUS UPDATE / SEP 2, 2025</p>
-    </header>
+    <p class="subtitle">
+      <span class="lang" lang="en" aria-hidden="false">LATEST STATUS UPDATE — JAN 31, 2026</span>
+      <span class="lang" lang="fr" aria-hidden="true">DERNIÈRE MISE À JOUR — 31 JANV. 2026</span>
+      &nbsp;·&nbsp;
+      <button id="toggleLang" class="lang-toggle" aria-pressed="false">Français</button>
+    </p>
+  </header>
 
-    <main>
-      <section aria-labelledby="intro">
-        <h2 id="intro">/now</h2>
-        <p>A place to stay updated on my work, life and thoughts.</p>
-        <ul>
-          <li>🏬 At work I'm advocating equity, diversity, inclusion, accessibility, and belonging (EDIA&B) within Loblaws.</li>
-          <br>
-          <li>🏡 At home I'm writing and recording music, posting food and recipe content, and re-learning how to skateboard.</li>
-          <br>
-          <li>🌐 I'm focused on system design, decentralization, atproto, how to create an appview, or host a PDS and relay as I re-enter the UI/UX/PM and software product design industry.</li><br>
+  <main>
+    <section id="now">
+      <h2>/now</h2>
 
-          <li>📖 I'm currently reading: 
-            <br><a href="https://www.torontopubliclibrary.ca/detail.jsp?R=4473941" target="_blank"><i>"None of the above : reflections on life beyond the binary"</i></a> by Travis Alabanza.
-            <br><a href="https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM131265&R=131265" target="_blank"><i>"The story of French"</i></a> by Nadeau, Jean-Benoît & Barlow.
-            <br><a href="https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDM3911636&R=3911636" target="_blank"><i>"The power of ritual: turning everyday activities into soulful practices"</i></a> by Casper Ter Kuile</li><br>
+      <p class="lang" lang="en" aria-hidden="false">A short, public note about what I’m focused on right now: projects, learning, priorities, and what’s taking up my time.</p>
+      <p class="lang" lang="fr" aria-hidden="true">Une courte note publique sur ce qui occupe mon temps en ce moment : projets, apprentissages, priorités et énergie consacrée.</p>
 
-          <li>🗣️ Inspired by <a href="https://afhalifax.ca/who-we-are/af-in-halifax/#/" target="_blank">Alliance Française in Halifax</a>, my goal is bilingual business/government communication fluency within Canada & Québec, <a href="https://afhalifax.ca/learn/french-for-professionals-government-training/healthcare-services/#/?classificationIds=3&periodIds=204%7C198%7C199%7C205&levelsIds=65" target="_blank">specifically within healthcare services.</a></li><br>
+      <ul>
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">🏢 At work: I’m an Administrative Assistant for the POSSE and CIAO projects, sponsored through the Mi'kmaw Native Friendship Centre.</span>
+          <span class="lang" lang="fr" aria-hidden="true">🏢 Au travail : je suis adjointe administrative pour les projets POSSE et CIAO, parrainés par le Mi'kmaw Native Friendship Centre.</span>
+        </li>
 
-          <li>🎶 I'm exploring music therapy, songwriting, recording, mixing/mastering and publishing music on SoundCloud.</li><br>
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">🏡 At home: writing and recording music, creating food and recipe content, and re-learning how to skateboard.</span>
+          <span class="lang" lang="fr" aria-hidden="true">🏡 À la maison : j’écris et j’enregistre de la musique, je crée du contenu culinaire/recettes et j’apprends de nouveau le skateboard.</span>
+        </li>
 
-          <li>❤️‍🩹 I'm learning how to live gluten-free as I recover from chronic illness due to long undiagnosed celiac disease.</li><br>
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">🌐 Product & design focus: diving back into system design and decentralization (ATProto). Experimenting with app views, hosting a PDS & relay, and re-entering UI/UX/product design.</span>
+          <span class="lang" lang="fr" aria-hidden="true">🌐 Produits & design : retour à la conception de systèmes et à la décentralisation (ATProto). J’expérimente les appviews, l’hébergement d’un PDS et d’un relay en réintégrant l’UI/UX et le design produit.</span>
+        </li>
 
-          <li>🦋 I'm committed to being a better person each day, however marginal, by being a public universal friend.</li>
-        </ul>
-      </section>
-    </main>
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">📖 Currently reading:
+            <ul>
+              <li><i>None of the Above: Reflections on Life Beyond the Binary</i> — Travis Alabanza</li>
+              <li><i>The Story of French</i> — Jean‑Benoît Nadeau & Julie Barlow</li>
+              <li><i>The Power of Ritual</i> — Casper ter Kuile</li>
+            </ul>
+          </span>
+          <span class="lang" lang="fr" aria-hidden="true">📖 Lecture en cours :
+            <ul>
+              <li><i>None of the Above: Reflections on Life Beyond the Binary</i> — Travis Alabanza</li>
+              <li><i>The Story of French</i> — Jean‑Benoît Nadeau & Julie Barlow</li>
+              <li><i>The Power of Ritual</i> — Casper ter Kuile</li>
+            </ul>
+          </span>
+        </li>
 
-    <footer>
-      <nav aria-label="Social links">
-        <ul id="footer-ul">
-          <li><a href="https://bsky.app/profile/summerlee.xyz" target="_blank" rel="noopener">Bluesky 🦋</a></li>
-          <li><a href="https://www.linkedin.com/in/summerlee-design" target="_blank" rel="noopener">LinkedIn 🤝</a></li>
-          <li><a href="https://www.summerlee.design" target="_blank" rel="noopener">Case studies 🕵️‍♀️</a></li>
-        </ul>
-      </nav>
-      <p><small>&copy; 2025 Summer Lee. All rights reserved.</small></p>
-    </footer>
-  </body>
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">🗣️ Language goal: building bilingual business/government fluency in Canada & Québec — aiming for professional French in healthcare communications.</span>
+          <span class="lang" lang="fr" aria-hidden="true">🗣️ Objectif linguistique : atteindre la fluidité bilingue (affaires/gouvernement) au Canada et au Québec — viser le français professionnel pour les communications en santé.</span>
+        </li>
+
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">🎶 Music: exploring music therapy, songwriting, recording, mixing/mastering, and releasing tracks on SoundCloud.</span>
+          <span class="lang" lang="fr" aria-hidden="true">🎶 Musique : exploration de la musicothérapie, écriture de chansons, enregistrement, mixage/mastering et publication sur SoundCloud.</span>
+        </li>
+
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">❤️‍🩹 Health: adapting to a gluten‑free lifestyle as I recover from long‑undiagnosed celiac disease.</span>
+          <span class="lang" lang="fr" aria-hidden="true">❤️‍🩹 Santé : adaptation à un régime sans gluten tandis que je récupère d’une maladie coeliaque longtemps non diagnostiquée.</span>
+        </li>
+
+        <li>
+          <span class="lang" lang="en" aria-hidden="false">🦋 Personal: I’m committed to small, steady improvements—showing up as a public, universal friend.</span>
+          <span class="lang" lang="fr" aria-hidden="true">🦋 Personnel : je m’engage à de petites améliorations quotidiennes — être une amie universelle, publique et présente.</span>
+        </li>
+      </ul>
+    </section>
+
+    <nav>
+      <ul>
+        <li><a href="https://bsky.app/profile/summerlee.xyz">Bluesky 🦋</a></li>
+        <li><a href="https://www.linkedin.com/in/summerlee-design">LinkedIn 🤝</a></li>
+        <li><a href="https://www.summerlee.design">Case studies 🕵️‍♀️</a></li>
+      </ul>
+    </nav>
+  </main>
+
+  <footer>
+    <p>
+      <span class="lang" lang="en" aria-hidden="false">© 2026 Summer Lee. All rights reserved.</span>
+      <span class="lang" lang="fr" aria-hidden="true">© 2026 Summer Lee. Tous droits réservés.</span>
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      const toggleBtn = document.getElementById('toggleLang');
+      const langs = document.querySelectorAll('.lang');
+      const en = 'en', fr = 'fr';
+      const storageKey = 'site-lang';
+      function setLang(lang) {
+        document.documentElement.lang = lang;
+        document.title = (lang === fr) ? 'Summer Lee — Maintenant' : 'Summer Lee — Now';
+        langs.forEach(el => {
+          const elLang = el.getAttribute('lang');
+          const isVisible = (elLang === lang);
+          el.setAttribute('aria-hidden', isVisible ? 'false' : 'true');
+        });
+        toggleBtn.textContent = (lang === en) ? 'Français' : 'English';
+        toggleBtn.setAttribute('aria-pressed', String(lang === fr));
+        localStorage.setItem(storageKey, lang);
+      }
+      const saved = localStorage.getItem(storageKey);
+      const prefer = saved || (navigator.language && navigator.language.startsWith('fr') ? fr : en);
+      setLang(prefer);
+      toggleBtn.addEventListener('click', () => {
+        const current = document.documentElement.lang || en;
+        setLang(current === en ? fr : en);
+      });
+    })();
+  </script>
+</body>
 </html>
